@@ -8,11 +8,11 @@ X-Forwarder-For
 ```
 Pour eviter tout ce qui est restriction apres tel tentative (On sait jamais)
 
-![](/assets/IMG-20260508202307095.png)
+![](assets/IMG-20260508202307095.png)
 
 Ensuite j'ai analyser les reponse obtenue en filtrant par Taille de reponse
 
-![](/assets/IMG-20260508202307112.png)
+![](assets/IMG-20260508202307112.png)
 
 Ici j'ai remarqur que avec le user *devrootkali* on a comme reponse Mot de passe pour cet utilisateur invalide
 
@@ -21,7 +21,7 @@ Ensuite je passe a l'enumeration du password
 
 Ici j'ai aussi tenter le pichfork attaque avec ce dernier mais je remarque que ca ne passe pas
 
-![](/assets/IMG-20260508202307151.png)
+![](assets/IMG-20260508202307151.png)
 
 Ici pour contourner les reponse de tentative j'ai generer une wordliste de ip
 
@@ -78,7 +78,7 @@ X-IP-For
 
 et maintenant avec le brute force on a plus le time rate limite mais des reponse de 
 
-![](/assets/IMG-20260508202307242.png)
+![](assets/IMG-20260508202307242.png)
 
 
 
@@ -112,15 +112,15 @@ for i in range(1, 255):
 
 Maintenant apres avoir acces a la page , j'ai remarquer un truc en fesant passer la requtes dans Burp la presence des APIs
 
-![](/assets/IMG-20260508202307255.png)
+![](assets/IMG-20260508202307255.png)
 
 
 Donc j'ai directement penser au FUZZING D'api et je suis tomber sur un endpoind interressant
 
-![](/assets/IMG-20260508202307266.png)
+![](assets/IMG-20260508202307266.png)
 
 
-![](/assets/IMG-20260508202307299.png)
+![](assets/IMG-20260508202307299.png)
 
 
 
@@ -143,7 +143,7 @@ admin_info":{"email":"superadmin@internal.pentest-recruit.fr",
 
 Bref apres avoir tenter l'email avec mot de passe oublier nous avons un message assez interressant qui ici ca chauffer un peu ta carte graphique 
 
-![](/assets/IMG-20260508202307332.png)
+![](assets/IMG-20260508202307332.png)
 
 
 ```
@@ -188,7 +188,7 @@ OTP Trouver : 8531
 
 en suite modifier le mot de passe et me reconnecter
 
-![](/assets/IMG-20260508202307367.png)
+![](assets/IMG-20260508202307367.png)
 
 
 
